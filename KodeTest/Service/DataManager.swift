@@ -42,7 +42,7 @@ class DataManager {
                                                                                  descFull: """
 Церковь в память о королеве Пруссии Луизе построили в 1901 году. Проект разработал архитектор Фридрих Хайтманн. Это была его первая большая работа, за кирху он получил орден Короны и титул «королевского строительного советника». Здание имеет черты романского стиля и стиля модерн. Два шпиля — один более высокий, другой поменьше — олицетворяют королевскую чету. Кирха была освящена в присутствии правнука Луизы, последнего императора Пруссии Вильгельма II. Во время Второй мировой войны от здания остались только стены. Власти Калининграда планировали снести руины, но архитектор Юрий Ваганов предложил проект реконструкции кирхи для Областного театра кукол, который нуждался в собственном помещении. Здание сохранило внешний облик, но было полностью перестроено внутри. В 1976 году здесь уже давали первые представления.
 """,
-                                                                                 imageURL: "https://lh3.googleusercontent.com/proxy/hKjLTTdbYsaz_uSEAUn09BGR_fj156kZR3lSqDuRkCpftiwRwGlbTN8KDMGKkz3cnLIDJsx_DOFkzbf_OlsxaThcyuA_slFLJxMWEBQKXpUHFcuk1wWB-d3_xXk3NFEFOEYOZqyOZwzORz4iv919rtSXK-gz18AUMG8sEbN4IdHBzfdUWxzUl84qz3mb2YCWzDP6KyyYNcPI7bprgZxPRjwPWb2u91m9Fc--D7HWCp-mrGEnv9uar_kcdRXOISxAZZasMHYs0owT_w3E",
+                                                                                 imageURL: "https://kaliningrad-life.ru/data/articles/oKaliningrade/KirhaLuizi.jpg",
                                                                                  lan: 54.719535, lon: 20.4753),
                                                                
                                                                AttractiveForSave(name: "Калининградский областной историко-художественный музей",
@@ -50,7 +50,7 @@ class DataManager {
                                                                                  descFull: """
 Музей основали в 1946 году. Главное здание находится в центре города, рядом с искусственным водоемом Нижний пруд. У музея четыре филиала — «Блиндаж», военно-исторический филиал «Командный пункт 43-й армии», Мемориальный музей Кристионаса Донелайтиса в поселке Чистые Пруды и Парк скульптур на острове Кнайпхоф. В Калининградском областном историко-художественном музее и его филиалах хранятся ювелирные изделия Калининградского янтарного комбината, монеты и минералы, фотографии, документы и оружие времен Великой Отечественной войны, работы калининградских художников.
 """,
-                                                                                 imageURL: "https://lh3.googleusercontent.com/proxy/0JlMcGzvNpbyPiur7zPmCpvp-KPP6cnS7KYi7zcjJr_EcSwfNPH6c3UbyY-zzzQcLJ9d-GAi2ZcstDGlsWI8HWRCCznGkWyMJYwri4MVSvI5ly-NhpsMe2f3MCp7Q9eCjXL-4qqPksmjO8EbAobEH1FnnzYu_EcvzX8XgK1YD3rEExdQoQLwMFCZ049kY-9keJ3aCOaBFktd7Bn4N74hXNB-RElTQT5bgxsHb2y2Oldbt_2HDC2PKIK9d74S72JjBkbKnl6iSFJZGE4RRb8rtSL0C289IxYvgw",
+                                                                                 imageURL: "https://regions.kidsreview.ru/sites/default/files/styles/oww/public/09/03/2014_-_1420/zlllqrcaqam.jpg",
                                                                                  lan: 54.713922, lon: 20.518103),
                                                                
                                                                AttractiveForSave(name: "Музей Мирового океана",
