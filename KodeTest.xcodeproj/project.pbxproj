@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,7 +29,6 @@
 		EE538C2A253F71C1009E534B /* Extension + UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE538C29253F71C1009E534B /* Extension + UILabel.swift */; };
 		EE538C2C25401D41009E534B /* ShowAttractionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE538C2B25401D41009E534B /* ShowAttractionViewModel.swift */; };
 		EE538C302540B78E009E534B /* AttractionInMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE538C2F2540B78E009E534B /* AttractionInMapViewController.swift */; };
-		EE538C322540C3E4009E534B /* ShowDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE538C312540C3E4009E534B /* ShowDescriptionViewController.swift */; };
 		EE538C342540C88F009E534B /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE538C332540C88F009E534B /* Extension + UIViewController.swift */; };
 		EE538C362541637F009E534B /* AttractiveForSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE538C352541637F009E534B /* AttractiveForSave.swift */; };
 		EE7176F525433DF300C40090 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7176F425433DF300C40090 /* SearchTextField.swift */; };
@@ -81,7 +80,6 @@
 		EE538C29253F71C1009E534B /* Extension + UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UILabel.swift"; sourceTree = "<group>"; };
 		EE538C2B25401D41009E534B /* ShowAttractionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAttractionViewModel.swift; sourceTree = "<group>"; };
 		EE538C2F2540B78E009E534B /* AttractionInMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionInMapViewController.swift; sourceTree = "<group>"; };
-		EE538C312540C3E4009E534B /* ShowDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDescriptionViewController.swift; sourceTree = "<group>"; };
 		EE538C332540C88F009E534B /* Extension + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
 		EE538C352541637F009E534B /* AttractiveForSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractiveForSave.swift; sourceTree = "<group>"; };
 		EE7176F22542E2E700C40090 /* CityAttraction 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CityAttraction 4.xcdatamodel"; sourceTree = "<group>"; };
@@ -300,7 +298,6 @@
 				EE538C18253E24AC009E534B /* AttractionsList */,
 				EE538C26253F6A3B009E534B /* ShowAttraction */,
 				EE538C2F2540B78E009E534B /* AttractionInMapViewController.swift */,
-				EE538C312540C3E4009E534B /* ShowDescriptionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -420,7 +417,6 @@
 				EE538C2C25401D41009E534B /* ShowAttractionViewModel.swift in Sources */,
 				EE7271ED2538D77300656AF3 /* AppDelegate.swift in Sources */,
 				EE72720D2539A80900656AF3 /* Boxing.swift in Sources */,
-				EE538C322540C3E4009E534B /* ShowDescriptionViewController.swift in Sources */,
 				EE72720F2539B39E00656AF3 /* SearchFeatherFooter.swift in Sources */,
 				EE7272162539D98900656AF3 /* CityCoordinates.swift in Sources */,
 				EE538C342540C88F009E534B /* Extension + UIViewController.swift in Sources */,

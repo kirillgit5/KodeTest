@@ -34,10 +34,6 @@ class ShowAttractionViewController: UIViewController {
             guard let mapVC = segue.destination as? AttractionInMapViewController else { return }
             guard let location = sender as? LocationMap else { return }
             mapVC.location = location
-        } else {
-            guard let descVC = segue.destination as? ShowDescriptionViewController else { return }
-            guard let desc = sender as? String else { return }
-            descVC.fullDescription = desc
         }
     }
     

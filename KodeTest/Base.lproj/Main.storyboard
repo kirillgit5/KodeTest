@@ -246,6 +246,7 @@
                                 </connections>
                             </collectionView>
                         </subviews>
+                        <color key="backgroundColor" red="0.047058823530000002" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="lsU-tJ-bPE" firstAttribute="leading" secondItem="Fcf-0U-Qm8" secondAttribute="leading" id="Y75-BT-mYE"/>
                             <constraint firstItem="Fcf-0U-Qm8" firstAttribute="bottom" secondItem="lsU-tJ-bPE" secondAttribute="bottom" id="bB6-9d-4Mv"/>
@@ -403,7 +404,6 @@
                         <outlet property="readMoreButton" destination="wbE-gg-vXP" id="Nqv-OZ-fBu"/>
                         <outlet property="scrollView" destination="U6e-zX-8l5" id="MAx-LR-oAl"/>
                         <segue destination="Ce5-uf-AMv" kind="show" identifier="showInMap" id="986-Yu-Qnk"/>
-                        <segue destination="M0M-Tl-ltH" kind="presentation" identifier="ShowDescription" id="Uj0-mA-MfZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UG4-fn-4Kl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -413,7 +413,6 @@
         <!--Attraction In Map View Controller-->
         <scene sceneID="u8w-Kp-Kd4">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IAz-Er-Vy4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Ce5-uf-AMv" customClass="AttractionInMapViewController" customModule="KodeTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sIx-YI-WxY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -437,42 +436,9 @@
                         <outlet property="map" destination="ygZ-61-Vgb" id="Znm-b5-pkW"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IAz-Er-Vy4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5254" y="126"/>
-        </scene>
-        <!--Show Description View Controller-->
-        <scene sceneID="zpJ-bY-iaQ">
-            <objects>
-                <viewController id="M0M-Tl-ltH" customClass="ShowDescriptionViewController" customModule="KodeTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UbW-7z-Cki">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gy-rN-bu0">
-                                <rect key="frame" x="10" y="10" width="355" height="637"/>
-                                <color key="backgroundColor" red="0.047058823529411764" green="0.058823529411764705" blue="0.058823529411764705" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.047058823529411764" green="0.058823529411764705" blue="0.058823529411764705" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="7gy-rN-bu0" firstAttribute="top" secondItem="TDH-pd-3yf" secondAttribute="top" constant="10" id="7sv-bw-F5j"/>
-                            <constraint firstItem="7gy-rN-bu0" firstAttribute="bottom" secondItem="TDH-pd-3yf" secondAttribute="bottom" id="Ifr-6y-SOq"/>
-                            <constraint firstItem="7gy-rN-bu0" firstAttribute="leading" secondItem="TDH-pd-3yf" secondAttribute="leading" constant="10" id="Tbq-Bx-3YV"/>
-                            <constraint firstItem="7gy-rN-bu0" firstAttribute="trailing" secondItem="TDH-pd-3yf" secondAttribute="trailing" constant="-10" id="w5x-SZ-ONU"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="TDH-pd-3yf"/>
-                    </view>
-                    <connections>
-                        <outlet property="textView" destination="7gy-rN-bu0" id="pbg-GM-l2W"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="poz-XJ-Nlq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6147.826086956522" y="932.8125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="l3Q-0W-pCC">

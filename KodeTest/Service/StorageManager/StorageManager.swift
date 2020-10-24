@@ -50,7 +50,7 @@ class StorageManager {
     
     func createAttractions() {
         
-        for (cityID, attractions) in dataManager.attractionsBeta {
+        for (cityID, attractions) in dataManager.getAttractions() {
             guard let entityDescription = NSEntityDescription.entity(forEntityName: "City", in: self.managedObjectContext) else { return }
             guard let city = NSManagedObject(entity: entityDescription, insertInto: self.managedObjectContext) as? City else { return }
             city.id = cityID
